@@ -1,0 +1,44 @@
+name: Bug
+description: Something does not work the way its README or the wiki says.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A security problem does not go here: use this repo's Security tab, "Report a vulnerability".
+        Remove keys, tokens and anything private from what you paste.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did and what you saw. Paste errors and logs as text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `mimi pair` on the gateway's machine
+        2. Paste the link into the app's Connect screen
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and platform
+      description: The commit or version of each repo involved, your OS and Node.js version, and the model provider if it matters.
+      placeholder: |
+        gateway 3f2a1c0, sdk 9b7e4d2
+        Ubuntu 24.04, Node.js 24.1
+        app on Windows 11
+    validations:
+      required: true

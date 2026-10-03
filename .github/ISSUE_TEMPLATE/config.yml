@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability
+    url: https://github.com/orgs/Mimi-agent-os/repositories
+    about: Never in an issue. Open the affected repo's Security tab and choose "Report a vulnerability".
+  - name: Questions
+    url: https://mimi-agent-os.github.io/wiki/
+    about: How to set up and use mimi-os is in the wiki.
