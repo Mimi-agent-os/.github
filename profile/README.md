@@ -12,7 +12,7 @@
   <a href="https://mimi-agent-os.github.io/wiki/#/launch">Get started</a>
 </p>
 
-A gateway on a machine you own holds the models and the chats. Each agent is a folder of TypeScript you write
+A gateway on a machine you own holds the models and runs the chats. Each agent is a folder of TypeScript you write
 with the SDK. The app, on a macOS desktop, a Windows desktop or an Android phone, talks to them over an end-to-end
 encrypted channel, and any tool an agent marks as a write waits for your Allow.
 
